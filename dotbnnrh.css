@@ -1,0 +1,87 @@
+﻿.banner {
+    position:relative;
+    top:60px;
+    background-image: url('banner.jpg');
+    height: 600px;
+    width: 100%;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+nav {
+    background: #E5E7E9;
+    height: 65px;
+    width: 100%;
+    z-index: 2;
+    position: sticky;
+    top:0;
+}
+ul {
+    display: inline-flex;
+    list-style: none;
+    float: right;
+}
+    ul li {
+        padding-right: 25px;
+    }
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            
+        }
+img{
+    width:100%;
+}
+.content {
+    position: relative;
+    top: 10px;
+}
+#p1 {
+    POSITION: ABSOLUTE;
+    TOP: 35PX;
+    LEFT: 10PX;
+}
+#p2 {
+    POSITION: ABSOLUTE;
+    TOP: 35PX;
+    LEFT: 475PX;
+}
+#p3 {
+    POSITION: ABSOLUTE;
+    TOP: 35PX;
+    LEFT: 915PX;
+}
+#p4 {
+    POSITION: ABSOLUTE;
+    TOP: 315PX;
+    LEFT: 10PX;
+}
+
+#p5 {
+    POSITION: ABSOLUTE;
+    TOP: 315PX;
+    LEFT: 475PX;
+}
+
+#p6 {
+    POSITION: ABSOLUTE;
+    TOP: 315PX;
+    LEFT: 915PX;
+}
+#p7 {
+    POSITION: ABSOLUTE;
+    TOP: 635PX;
+    LEFT: 10PX;
+}
+
+#p8 {
+    POSITION: ABSOLUTE;
+    TOP: 635PX;
+    LEFT: 475PX;
+}
+
+#p9 {
+    POSITION: ABSOLUTE;
+    TOP: 635PX;
+    LEFT: 915PX;
+}

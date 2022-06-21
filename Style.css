@@ -1,0 +1,23 @@
+﻿#para1 {
+    background-color: aqua;
+    height: 200px;
+    color: deeppink;
+}
+h1{
+    color:blue;
+    background-color:yellow;
+}
+#para2 {
+    background-color: yellowgreen;
+    height: 150px;
+    color:brown;
+}
+p{
+    text-align:center;
+}
+.commFONT{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div {
+    height: 150px;
+}

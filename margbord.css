@@ -1,0 +1,15 @@
+﻿#div1 {
+    margin: 69px 53px 39px 13px;
+    border: 15px solid red;
+    padding: 25px 22px 21px 48px;
+    box-shadow: 5px 6px 13px blue;
+    text-align:initial;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: ui-rounded;
+}
+
+
