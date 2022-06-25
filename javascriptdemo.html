@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+
+    <script>
+        // array in javascript
+        var nums = [56, 34, 12, 89, 59];
+        var names = ["rohan", "suraj", "kishor", "rahul"];
+        //for (var i = 0; i < names.length; i++) {
+        //    console.log(names[i]);
+        //}
+
+        names.push("Amol");
+        names.unshift("Dhiraj");
+        // remove the last element
+        names.pop();
+        // remove the first element
+        names.shift();
+
+        //splice
+        names.splice(1, 0, "balaji", "kushal");
+
+        //slice
+       // var list = names.slice(2);
+        var list = names.slice(1, 5); //--> <5
+        names.sort();
+        names.reverse();
+
+        document.getElementById("d1").innerHTML = names;
+        document.getElementById("d2").innerHTML = list;
+
+    </script>
+    <!--<script src="code.js"></script>-->
+</body>
+</html>

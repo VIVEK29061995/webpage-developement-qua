@@ -19,11 +19,11 @@ height:200px;
 }
     .content .row {
         border: none;
-        box-shadow: 2px 3px 2px #808080
-    }
+/*        box-shadow: 2px 3px 2px #808080;
+*/    }
     .content .card
     {
-        width:97% ! important;
+        width:100% ! important;
         border:none;
         box-shadow:4px 5px 3px #85C1E9;
         padding-right:15px !important;
@@ -44,5 +44,28 @@ height:200px;
 .fa-instagram {
     color: #BB8FCE;
 }
- 
-   
+.form-control{
+    width:50%;
+}
+   .custom-btn{
+       position:relative;
+       top:10px;
+   }
+   /*media query for mobile*/
+
+   @media only screen and (min-device-width:320px) and (max-device-width:480px){
+       .form-control{
+           width:100%;
+       }
+   }
+/*media query for tab*/
+
+@media only screen and (min-device-width:768px) and (max-device-width:1020px) {
+    .form-control {
+        width: 70%;
+    }
+}
+.footer{
+    top:23px;
+    height:204px;
+}
