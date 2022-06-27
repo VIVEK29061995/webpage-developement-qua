@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<script>
+    
+
+    var a=100;
+    console.log(a);
+
+    {
+        let a = 10;
+        console.log(a);
+    }
+
+    var b = 200;
+    {
+        let b = 20; // block or local scope
+        var c = 90; // global scope
+        console.log(b);
+    }
+    console.log(b);
+
+    var c = 300;
+    
+        var c = 30; // global scope
+        console.log(c);
+    
+    console.log(c);
+
+    var b = "Hello";
+    console.log(b);
+
+
+    //let a = 500;         // global scope
+    //var b = 70;
+
+
+    function test() {
+        var name = "pune"; //funtion scope
+        let d = 400;  // function scope
+        console.log(b);
+    }
+
+</script>
+</body>
+</html>
